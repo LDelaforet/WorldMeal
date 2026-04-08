@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+
+    body {
+        @apply bg-white text-gray-900;
+    }
+
+    a {
+        @apply transition-colors;
+    }
+
+    button {
+        @apply transition-colors;
+    }
+}
